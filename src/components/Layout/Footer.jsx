@@ -79,7 +79,7 @@ const Footer = () => {
       borderColor="whiteAlpha.100"
       mt={0}
     >
-      <Container as={Stack} maxW={'container.xl'} py={10}>
+      <Container as={Stack} maxW={'6xl'} py={10}>
         <SimpleGrid columns={{ base: 1, sm: 2, md: 4 }} spacing={8}>
           
           {/* KOLOM 1: Brand & Desc */}
@@ -119,16 +119,16 @@ const Footer = () => {
           <Stack align={'flex-start'}>
             <ListHeader>Services</ListHeader>
             <FooterLink href={'#'}>Web Development</FooterLink>
-            <FooterLink href={'#'}>UI/UX Design</FooterLink>
+            <FooterLink href={'#'}>Sales Marketing</FooterLink>
             <FooterLink href={'#'}>Video Editor</FooterLink>
-            <FooterLink href={'#'}>Marketing</FooterLink>
+            <FooterLink href={'#'}>Digital Marketing</FooterLink>
           </Stack>
 
           {/* KOLOM 4: Tech Stack (Opsional) */}
           <Stack align={'flex-start'}>
             <ListHeader>Tech Stack</ListHeader>
-            <Text color="gray.500" fontSize="sm">React / Vite</Text>
-            <Text color="gray.500" fontSize="sm">PHP</Text>
+            <Text color="gray.500" fontSize="sm">React</Text>
+            <Text color="gray.500" fontSize="sm"></Text>
             <Text color="gray.500" fontSize="sm">Adobe Illustrator</Text>
             <Text color="gray.500" fontSize="sm">Figma & Canva</Text>
             <Text color="gray.500" fontSize="sm">Capcut</Text>

@@ -24,11 +24,11 @@ export const projectsData = [
   },
   {
     id: 3,
-    title: "Editing Content Website",
+    title: "Website Jasa Editing Content",
     category: "Editing Content",
     image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?q=80&w=2000&auto=format&fit=crop",
     desc: "Website untuk Jasa Editing Content Video.",
-    longDesc: "Antarmuka dompet crypto yang aman dan transparan. Mendukung multi-chain (Ethereum, Solana, Polygon). User dapat mengirim, menerima, dan melakukan minting NFT langsung dari dashboard.",
+    longDesc: "Website untuk jasa editing content video. Dibangun dengan React. Fitur utama meliputi preview video, upload file, dan pengaturan timeline.",
     tech: ["React JS", "Vite"],
     demoLink: "#",
     repoLink: "#"
@@ -47,7 +47,7 @@ export const projectsData = [
   {
     id: 5,
     title: "Portfolio v1",
-    category: "Website",
+    category: "Website Personal",
     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2000&auto=format&fit=crop",
     desc: "Versi pertama portofolio saya.",
     longDesc: "Website statis sederhana menggunakan HTML, CSS, dan JS Vanilla.",
